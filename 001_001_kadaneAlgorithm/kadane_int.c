@@ -18,7 +18,7 @@ int getMaxSumSubArray(int *arr, int length) {
     }
   }
   printf ("The maximum sum of sub-array is %d\n", maxSum);
-  printf ("The maximum sum of sub-array is start from %d to %d\n", start, end);
+  printf ("The maximum sum of sub-array starts from %d to %d\n", start, end);
   return maxSum;
 }
 
